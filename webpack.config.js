@@ -52,7 +52,7 @@ module.exports = {
         use: [isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader, 'css-loader']
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|webp|jpeg)$/i,
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|webp|jpeg|mp4)$/i,
         loader: 'file-loader',
 
         options: {
